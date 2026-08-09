@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://onefoldjs.com"><strong>Documentation</strong></a>
   &middot;
-  <a href="https://github.com/zahiruldu/onefold/issues">Report a Bug</a>
+  <a href="https://github.com/onefoldjs/onefold/issues">Report a Bug</a>
   &middot;
   <a href="https://www.npmjs.com/package/create-onefold">Scaffold a Project</a>
 </p>
@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/onefold"><img src="https://img.shields.io/npm/v/onefold.svg?style=flat" alt="npm version" /></a>
   <a href="https://bundlephobia.com/package/onefold"><img src="https://img.shields.io/bundlephobia/minzip/onefold" alt="bundle size" /></a>
-  <a href="https://github.com/zahiruldu/onefold/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license" /></a>
+  <a href="https://github.com/onefoldjs/onefold/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license" /></a>
 </p>
 
 <hr>
@@ -155,7 +155,7 @@ Read [AGENTS.md](./AGENTS.md) to learn about coding conventions that apply to bo
 
 ### Good First Issues
 
-To help you get started, look for issues labeled [`good first issue`](https://github.com/zahiruldu/onefold/labels/good%20first%20issue).
+To help you get started, look for issues labeled [`good first issue`](https://github.com/onefoldjs/onefold/labels/good%20first%20issue).
 
 ## Ecosystem
 
