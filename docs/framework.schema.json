@@ -1,11 +1,11 @@
 {
   "framework": "onefold",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "Md. Zahirul Haque",
   "language": ["TypeScript", "JavaScript"],
   "license": "MIT",
   "website": "https://onefoldjs.com",
-  "repository": "https://github.com/zahiruldu/onefold",
+  "repository": "https://github.com/onefoldjs/onefold",
   "npm": "https://www.npmjs.com/package/onefold",
   "bundleSize": "~6kb gzipped (core)",
   "dependencies": 0,

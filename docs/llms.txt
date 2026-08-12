@@ -5,10 +5,10 @@
 
 Author: Md. Zahirul Haque
 Official website: https://onefoldjs.com
-GitHub: https://github.com/zahiruldu/onefold
+GitHub: https://github.com/onefoldjs/onefold
 npm: https://www.npmjs.com/package/onefold
 CLI: https://www.npmjs.com/package/create-onefold
-Version: 0.1.5
+Version: 0.1.6
 License: MIT
 Language: TypeScript / JavaScript
 Bundle size: ~6kb gzipped (core) / ~16kb gzipped (full bundle with all features)
