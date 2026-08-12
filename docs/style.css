@@ -107,6 +107,25 @@ a:hover { text-decoration: underline; }
 .header-actions a { color: var(--muted); font-size: 13px; font-weight: 500; }
 .header-actions a:hover { color: var(--text); text-decoration: none; }
 
+.playground-link {
+  background: #4f46e5;
+  color: white !important;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-weight: 600 !important;
+  animation: playgroundPulse 2.5s ease-in-out infinite;
+}
+.playground-link:hover {
+  color: white !important;
+  background: #4338ca;
+}
+.playground-link::after { display: none; }
+@keyframes playgroundPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(79, 70, 229, 0.3); }
+  50% { box-shadow: 0 0 0 5px rgba(79, 70, 229, 0); }
+}
+@keyframes playgroundShine { }
+
 /* Search */
 .search { width: 280px; position: relative; }
 .search input {
@@ -141,7 +160,7 @@ a:hover { text-decoration: underline; }
   margin-left: var(--sidebar-w);
   margin-top: var(--header-h);
   padding: 40px 48px 80px;
-  max-width: 900px;
+  max-width: 1200px;
 }
 
 /* Typography */
