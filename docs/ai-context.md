@@ -3,9 +3,8 @@
 This file teaches AI coding assistants how to write correct onefold code. It contains
 every pattern, idiom, and rule needed to generate working onefold applications.
 
-Import: `import { ... } from 'onefold'`
-Core: `import { ... } from 'onefold'`
-Enterprise features via sub-paths: `import { ... } from 'onefold/form'`, `'onefold/http'`, etc.
+Core: `import { createSignal, html, mount, Router, ... } from 'onefold'`
+Sub-paths: `import { createForm } from 'onefold/form'`, `'onefold/http'`, `'onefold/i18n'`, etc.
 
 ---
 

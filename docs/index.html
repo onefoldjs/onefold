@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>onefold — A Modern Reactive UI Framework for TypeScript | Lightweight, Complete, Fast</title>
-  <meta name="description" content="onefold is a modern reactive UI framework for building web applications with TypeScript. It includes everything you need — signals, routing, state management, forms, HTTP client, i18n, server-side rendering, and secure microfrontends — in a single 3kb package with zero dependencies." />
+  <meta name="description" content="onefold is a modern reactive UI framework for building web applications with TypeScript. It includes everything you need — signals, routing, state management, forms, HTTP client, i18n, server-side rendering, and secure microfrontends — in a single ~6kb core package with zero dependencies." />
   <meta name="keywords" content="onefold, onefoldjs, JavaScript framework, TypeScript framework, reactive UI, signals, web framework, SPA framework, routing, state management, microfrontends, SSR, server-side rendering, forms, i18n, theming, lightweight framework, frontend framework, real DOM, signal-based reactivity" />
   <meta name="author" content="Md. Zahirul Haque" />
   <meta name="application-name" content="onefold" />
@@ -12,6 +12,11 @@
 
   <!-- Canonical URL -->
   <link rel="canonical" href="https://onefoldjs.com/" />
+  <!-- AI agent discovery -->
+  <link rel="alternate" type="text/plain" href="./llms.txt" title="LLM-readable API reference" />
+  <link rel="alternate" type="text/markdown" href="./ai-context.md" title="AI coding patterns" />
+  <link rel="alternate" type="text/markdown" href="./AGENTS.md" title="AI coding conventions" />
+  <link rel="alternate" type="application/json" href="./framework.schema.json" title="Machine-readable API schema" />
 
   <!-- Language -->
   <link rel="alternate" hreflang="en" href="https://onefoldjs.com/" />
@@ -21,7 +26,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://onefoldjs.com/" />
   <meta property="og:title" content="onefold — A Modern Reactive UI Framework for TypeScript" />
-  <meta property="og:description" content="Build web applications with everything included — signals, routing, state, forms, HTTP client, server-side rendering, and microfrontend security. One framework, one import, 3kb gzipped, zero dependencies." />
+  <meta property="og:description" content="Build web applications with everything included — signals, routing, state, forms, HTTP client, server-side rendering, and microfrontend security. One framework, one import, ~6kb core gzipped, zero dependencies." />
   <meta property="og:image" content="https://onefoldjs.com/images/logo.svg" />
   <meta property="og:image:width" content="512" />
   <meta property="og:image:height" content="512" />
@@ -32,7 +37,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="onefold — A Modern Reactive UI Framework" />
-  <meta name="twitter:description" content="Everything you need to build web applications — signals, routing, state, forms, HTTP, SSR, microfrontends. One framework, 3kb, zero dependencies." />
+  <meta name="twitter:description" content="Everything you need to build web applications — signals, routing, state, forms, HTTP, SSR, microfrontends. One framework, ~6kb core, zero dependencies." />
   <meta name="twitter:image" content="https://onefoldjs.com/images/logo.svg" />
   <meta name="twitter:image:alt" content="onefold framework logo" />
 
@@ -53,7 +58,7 @@
     "@type": "SoftwareApplication",
     "name": "onefold",
     "alternateName": "onefoldjs",
-    "description": "A modern reactive UI framework for building web applications with TypeScript. Includes fine-grained signals, real DOM rendering, routing, state management, forms, HTTP client, internationalization, server-side rendering, and secure microfrontend loading — all in a single 3kb package with zero dependencies.",
+    "description": "A modern reactive UI framework for building web applications with TypeScript. Includes fine-grained signals, real DOM rendering, routing, state management, forms, HTTP client, internationalization, server-side rendering, and secure microfrontend loading — all in a single ~6kb core package with zero dependencies.",
     "url": "https://onefoldjs.com",
     "applicationCategory": "DeveloperApplication",
     "applicationSubCategory": "Web Framework",
@@ -88,7 +93,7 @@
       "Theming with CSS variables",
       "Accessibility utilities",
       "Zero runtime dependencies",
-      "3kb gzipped total bundle size",
+      "~6kb core gzipped total bundle size",
       "TypeScript-first with strict mode support"
     ]
   }
@@ -105,7 +110,7 @@
         "name": "What is onefold?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "onefold is a modern reactive UI framework for building web applications with TypeScript. It provides everything you need in a single package — signals for reactivity, routing, state management, forms, an HTTP client, internationalization, server-side rendering, and a new secure microfrontend architecture. The entire framework is 3kb gzipped with zero dependencies."
+          "text": "onefold is a modern reactive UI framework for building web applications with TypeScript. It provides everything you need in a single package — signals for reactivity, routing, state management, forms, an HTTP client, internationalization, server-side rendering, and a new secure microfrontend architecture. The entire framework is ~6kb core gzipped with zero dependencies."
         }
       },
       {
@@ -113,7 +118,7 @@
         "name": "What makes onefold different from other frameworks?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "onefold includes everything in one package — you do not need to install separate libraries for routing, state, forms, or HTTP. It uses fine-grained signals that update only the exact DOM node that changed, without a virtual DOM or diffing step. It requires no compiler or build step to get started, and the entire framework ships in 3kb gzipped."
+          "text": "onefold includes everything in one package — you do not need to install separate libraries for routing, state, forms, or HTTP. It uses fine-grained signals that update only the exact DOM node that changed, without a virtual DOM or diffing step. It requires no compiler or build step to get started, and the entire framework ships in ~6kb core gzipped."
         }
       },
       {
@@ -129,7 +134,7 @@
         "name": "How large is the onefold framework?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The entire framework is approximately 3kb gzipped. This includes routing, state management, forms, HTTP client, internationalization, theming, accessibility utilities, and microfrontend security. It has zero runtime dependencies."
+          "text": "The entire framework is approximately ~6kb core gzipped. This includes routing, state management, forms, HTTP client, internationalization, theming, accessibility utilities, and microfrontend security. It has zero runtime dependencies."
         }
       },
       {
@@ -176,7 +181,7 @@
   <noscript>
     <header>
       <h1>onefold — A Modern Reactive UI Framework for TypeScript</h1>
-      <p>Everything you need to build web applications — in one framework, one import, 3kb gzipped, with zero dependencies.</p>
+      <p>Everything you need to build web applications — in one framework, one import, ~6kb core gzipped, with zero dependencies.</p>
     </header>
 
     <main>
