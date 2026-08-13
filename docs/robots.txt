@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# AI agent resources
+# Full documentation for LLMs
+Sitemap: https://onefoldjs.com/sitemap.xml
+
+# AI-specific files (plain text, no JS required)
+# llms.txt — curated API reference for AI agents
+# ai-context.md — full coding patterns and examples
+# framework.schema.json — machine-readable API schema
+# AGENTS.md — coding conventions for AI contributors
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /

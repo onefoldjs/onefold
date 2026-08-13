@@ -49,7 +49,7 @@ npm create onefold@latest my-app
 npm install onefold
 ```
 
-All imports come from one package:
+All imports come from the `onefold` package (core + sub-paths):
 ```ts
 import { createSignal, html, mount, Router, navigate } from 'onefold';
 import { createForm } from 'onefold/form';
